@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:token/services/themes.dart';
 
-//Mechanics: Run app Token
+//Mechanics: Run Token
 void main() {
   runApp(new Token());
 }
@@ -11,7 +11,7 @@ class Token extends StatelessWidget {
   //Variable initialization
   Themes themes = new Themes();
 
-  //User interface: App Token
+  //User interface: Token app
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
