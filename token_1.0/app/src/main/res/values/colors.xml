@@ -4,7 +4,6 @@
     <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#000000</color>
 
-    <color name="loginBackgroundColor">#6200EE</color>
     <color name="loginTitleTextColor">#000000</color>
     <color name="loginNameInputColor">#000000</color>
     <color name="loginEmailInputColor">#000000</color>
