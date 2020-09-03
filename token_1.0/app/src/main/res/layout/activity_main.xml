@@ -10,7 +10,7 @@
         android:id="@+id/loginTitleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Token"
+        android:text="@string/loginTitleTextString"
         android:textSize="@dimen/loginTitleTextFontSize"
         android:textColor="@color/loginTitleTextColor"
         android:textFontWeight="@dimen/loginTitleTextFontWeight"
@@ -22,4 +22,52 @@
         app:layout_constraintVertical_bias="0.359"
         tools:visibility="visible" />
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/loginTitleText">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:hint="@string/loginEmailInputString"
+                android:textColorHint="@color/loginEmailInputColor"
+                tools:layout_editor_absoluteX="98dp"
+                tools:layout_editor_absoluteY="335dp"
+                android:layout_gravity="center"/>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/loginPasswordInputRow"
+                android:layout_gravity="center">
+
+                <EditText
+                    android:id="@+id/loginPasswordInput"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:hint="@string/loginPasswordInputString"
+                    android:textColorHint="@color/loginPasswordInputColor"
+                    tools:layout_editor_absoluteX="102dp"
+                    tools:layout_editor_absoluteY="394dp" />
+
+                <Button
+                    android:id="@+id/loginPasswordInputVisibilityButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="V"
+                    tools:layout_editor_absoluteX="301dp"
+                    tools:layout_editor_absoluteY="389dp" />
+            </TableRow>
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

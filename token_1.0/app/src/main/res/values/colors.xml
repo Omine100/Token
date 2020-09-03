@@ -6,4 +6,9 @@
 
     <color name="loginBackgroundColor">#6200EE</color>
     <color name="loginTitleTextColor">#000000</color>
+    <color name="loginNameInputColor">#000000</color>
+    <color name="loginEmailInputColor">#000000</color>
+    <color name="loginPasswordInputColor">#000000</color>
+    <color name="loginSignUpAlternativeTextColor">#000000</color>
+    <color name="loginSignInAlternativeTextColor">#000000</color>
 </resources>

@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="loginTitleTextFontSize" type="dimen" format="float">16.0</item>
+    <item name="loginSignUpAlternativeTextFontSize" type="dimen" format="float">12.0</item>
+    <item name="loginSignInAlternativeTextFontSize" type="dimen" format="float">12.0</item>
 </resources>

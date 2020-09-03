@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">Token</string>
 
-    <string name="loginTitleTextString">Token</string>>
+    <string name="loginTitleTextString">Token</string>
+    <string name="loginNameInputString">Full Name</string>
+    <string name="loginEmailInputString">E-Mail</string>
+    <string name="loginPasswordInputString">Password</string>
+    <string name="loginSignUpAlternativeTextString">Don\'t have an account? Sign Up!</string>
+    <string name="loginSignInAlternativeTextString">Already have an account? Sign in!</string>
 </resources>
