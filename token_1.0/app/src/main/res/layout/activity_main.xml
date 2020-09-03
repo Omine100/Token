@@ -39,15 +39,14 @@
                 android:inputType="textEmailAddress"
                 android:hint="@string/loginEmailInputString"
                 android:textColorHint="@color/loginEmailInputColor"
-                tools:layout_editor_absoluteX="98dp"
-                tools:layout_editor_absoluteY="335dp"
-                android:layout_gravity="center"/>
+                android:layout_marginStart="100dp"
+                android:autofillHints="@string/loginEmailInputString" />
 
             <TableRow
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/loginPasswordInputRow"
-                android:layout_gravity="center">
+                android:layout_marginStart="100dp">
 
                 <EditText
                     android:id="@+id/loginPasswordInput"
@@ -56,17 +55,15 @@
                     android:ems="10"
                     android:inputType="textPassword"
                     android:hint="@string/loginPasswordInputString"
+                    android:visibility="visible"
                     android:textColorHint="@color/loginPasswordInputColor"
-                    tools:layout_editor_absoluteX="102dp"
-                    tools:layout_editor_absoluteY="394dp" />
+                    android:autofillHints="@string/loginPasswordInputString" />
 
                 <Button
                     android:id="@+id/loginPasswordInputVisibilityButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="V"
-                    tools:layout_editor_absoluteX="301dp"
-                    tools:layout_editor_absoluteY="389dp" />
+                    android:text="" />
             </TableRow>
         </LinearLayout>
     </ScrollView>
