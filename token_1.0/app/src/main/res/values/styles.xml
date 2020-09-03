@@ -3,4 +3,8 @@
         <item name="android:title">@themes/loginTitleTextColor</item>
     </style>
 
+    <style name="LoginTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:title">@colors/loginTitleTextColor</item>
+    </style>
+
 </resources>
