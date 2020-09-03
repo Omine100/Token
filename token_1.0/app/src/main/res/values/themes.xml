@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="loginBackgroundColor">#6200EE</color>
+    <color name="loginTitleTextColor">#000000</color>
+
+    <item name="loginTitleFontSize" type="dimen" format="float">9.52</item>
+</resources>
