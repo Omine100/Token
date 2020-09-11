@@ -25,7 +25,19 @@ android {
 
 }
 
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
 dependencies {
+    // Import the platform
+    implementation platform('com.google.firebase:firebase-bom:25.9.0')
+
+    // When using a BoM, dependencies don't require a specified version
+    // If you do specify a version, it overrides the library version specified in the BoM
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.google.firebase:firebase-analytics'
+
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.0.2'

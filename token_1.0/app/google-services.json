@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1018060917102",
+    "firebase_url": "https://token-79789.firebaseio.com",
+    "project_id": "token-79789",
+    "storage_bucket": "token-79789.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018060917102:android:8d1fa729709e5238df597f",
+        "android_client_info": {
+          "package_name": "com.phoenix.token"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018060917102-vdgftt95hnrf4dn3ed17vukdr946ubgq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS-YeaLs8mzySL8mgWTzJx-aiJnHNeM7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018060917102-vdgftt95hnrf4dn3ed17vukdr946ubgq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
